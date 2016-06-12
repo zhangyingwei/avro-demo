@@ -1,0 +1,10 @@
+{"namespace": "com.zhangyw.avro.entity",
+ "type": "record",
+ "name": "User",
+ "fields": [
+     {"name": "username", "type": "string"},
+     {"name": "password",  "type": ["string", "null"]},
+     {"name": "sex", "type": ["int", "null"]},
+     {"name": "age", "type": ["int", "null"]}
+ ]
+}
